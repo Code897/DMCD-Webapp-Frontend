@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+document.title='DMCD'
+
+const favicon = document.createElement('link');
+favicon.rel = 'icon';
+favicon.type = 'image/png';  // Adjust the type based on the image format
+favicon.href = 'https://cdn.icon-icons.com/icons2/2518/PNG/512/letter_d_icon_151256.png';
+document.head.appendChild(favicon);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

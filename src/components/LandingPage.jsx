@@ -11,7 +11,9 @@ const LandingPage = () => {
   };
   return (
     <>
-      <div className='flex px-5 justify-center items-center flex-col' style={{ backgroundImage: `url('https://img.freepik.com/free-photo/close-up-new-york-traffic_23-2150868240.jpg?t=st=1706327318~exp=1706330918~hmac=d5b4bef19fe2659b93fdaec27678f28b2817d098568fe4b24a5bd337a658c643&w=360')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+      <div className='flex px-5 justify-center items-center flex-col' style={{
+        backgroundImage: `url('https://img.freepik.com/free-photo/close-up-new-york-traffic_23-2150868240.jpg?t=st=1706327318~exp=1706330918~hmac=d5b4bef19fe2659b93fdaec27678f28b2817d098568fe4b24a5bd337a658c643&w=360')`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 'calc(100vh - 81px)'
+      }}>
         <div className='flex text-white lg:mt-36 md:mt-20 mt-16 lg:text-lg text-xl'>DRIVEMYCARDRIVER</div>
         <div className='text-yellow-100 font-serif lg:block hidden lg:text-8xl text-4xl italic my-16'>Your Ride,Your Rules <br></br> We Drive, You Enjoy.</div>
         <div className='text-yellow-100 font-serif lg:hidden text-7xl italic my-14'>Your Ride,<br></br>Your Rules <br></br> We Drive,<br></br> You Enjoy.</div>
